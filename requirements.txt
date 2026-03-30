@@ -1,11 +1,23 @@
-pysrt==1.1.2
-pydub==0.25.1
-gradio==4.42.0
-tqdm==4.66.5
-tensorboard==2.17.1
-soundfile==0.12.1
-pyworld==0.3.2
-fastapi==0.112.1
-starlette==0.38.2
+# Beatrice Voice Training WebUI - Kaggle Requirements
+# ====================================================
 
-whisperx
+# Core dependencies
+gradio>=4.44.0
+torch>=2.1.0
+torchaudio>=2.1.0
+
+# WhisperX (install from git)
+# Install with: pip install git+https://github.com/m-bain/whisperx.git
+
+# Audio processing
+pydub>=0.25.1
+pysrt>=1.1.2
+librosa>=0.10.0
+soundfile>=0.12.1
+
+# Training
+tensorboard>=2.14.0
+
+# Utilities
+tqdm>=4.66.0
+numpy>=1.24.0

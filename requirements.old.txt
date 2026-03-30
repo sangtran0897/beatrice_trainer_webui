@@ -1,0 +1,11 @@
+pysrt==1.1.2
+pydub==0.25.1
+gradio==4.42.0
+tqdm==4.66.5
+tensorboard==2.17.1
+soundfile==0.12.1
+pyworld==0.3.2
+fastapi==0.112.1
+starlette==0.38.2
+
+whisperx
